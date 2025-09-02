@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3.- llamamos un archivo externo desde la etiqueta head. Se suele añadir el atributo defer para que espere a que se cargue la estructura HTML para ejecutarse.-->
+
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <h1>Javascript</h1>
+    <p>Es un lenguaje de programación dinámico y de alto nivel para crear interfaces interactivas y dinámicas.</p>
+    <p>Es uno de los 3 pilares fundamentales del desarrollo web.</p>
+    <ul>
+        <li>HTML -> Define la estructura del contenido (elementos que aparecen en la página)</li>
+        <li>CSS -> Define la apariencia (colores, tamaños,estilos)</li>
+        <li>Javascript -> Define el comportamiento (lo que hace la página o sus elementos)</li>
+    </ul>
+
+    <h2>Características</h2>
+    <ol>
+        <li>Lenguaje interpretado -> No necesitamos compilarlo. El navegador lo entiende directamente.</li>
+        <li>Basado en objetos -> Maneja en objetos como document, window, arrays, dates, class.</li>
+        <li>Dinámico -> Podemos modificar el contenido en tiempo real. (sin recargar)</li>
+        <li>Lenguaje versatil y de fácil aprendizaje -> Aunque nacio para la web, se usa tmb en servidores, aplicaciones móviles, videojuegos y hoy en día en IA</li>
+    </ol>
+
+    <!-- 1.- agregamos javascript directo -->
+
+    <script>
+        console.log('¡Hola papá, aprendo JS!')
+    </script>
+
+    <!-- 2.- vincular un archivo externo antes del cierre del body -->
+
+    <script src="./codigo.js"></script>
+
+</body>
+</html>
