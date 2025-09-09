@@ -1,1 +1,0 @@
-alert('¡Ni modo, perdiste, tienes 0 😪!')
