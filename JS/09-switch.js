@@ -20,7 +20,7 @@ default:
 */
 
 // Variable a evaluar
-let licenciatura = "televisión"; // televisión, diseño, colsultoría
+let licenciatura = prompt("Escribe la licenciatura que te interesa: televisión, diseño o consultoría"); // televisión, diseño, colsultoría
 
 switch (licenciatura) {
   case "televisión":
